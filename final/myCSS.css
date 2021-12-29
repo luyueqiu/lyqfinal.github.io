@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-image: url(img/bg1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: midnightblue;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    background: linear-gradient(180deg,transparent,10%,black);
+}
+
+.title {
+    text-align: center;
+}
+
+.title img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: -10px 0 0 gold;
+}
+
+h1 {
+    font-family: mainTitle;
+    color: gold;
+}
+
+h2 {
+    font-family: "Blackadder ITC";
+    color:lightsteelblue;
+    font-size:15px;
+}
+
+hr {
+    width: 90%;
+}
+
+.text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.second {
+    width: 65%;
+}
+
+.second p {
+    color:gold;
+    text-indent: 1.4rem;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    text-align:center;
+}
+
+.first p {
+    color: lightgrey;
+    text-indent: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 24%;
+}
+.bottom img {
+    width: 100%;
+}
+
+.bottom p {
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    line-height: 5px;
+    font-size: 10px;
+}
+
+.bottom .en {
+    text-transform: capitalize;
+}
+
+.bottom .en span {
+    text-transform: uppercase;
+}
+
+.bottom {
+    background: linear-gradient(transparent,20%,black);
+}
